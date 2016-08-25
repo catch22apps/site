@@ -1,0 +1,261 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rbenv/versions/2.0.0-p645/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 15, ../sass/screen.scss */
+h1 {
+  font-size: 8vmin;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* line 21, ../sass/screen.scss */
+h2 {
+  font-size: 4vmin;
+  margin-bottom: 20px;
+}
+
+/* line 26, ../sass/screen.scss */
+h3 {
+  font-size: 2vmin;
+}
+
+/* line 30, ../sass/screen.scss */
+h4 {
+  font-size: 1vmin;
+}
+
+/* line 34, ../sass/screen.scss */
+em {
+  font-style: italic;
+}
+
+/* line 38, ../sass/screen.scss */
+body {
+  font-family: "Roboto";
+  display: flex;
+  font-size: 100%;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* line 48, ../sass/screen.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 54, ../sass/screen.scss */
+.expert {
+  display: flex;
+  flex-flow: column;
+  max-width: 550px;
+}
+
+/* line 60, ../sass/screen.scss */
+.pricing {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+/* line 66, ../sass/screen.scss */
+.price-tier {
+  margin: 40px;
+}
+
+/* line 70, ../sass/screen.scss */
+.expert-fig {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* line 75, ../sass/screen.scss */
+.product {
+  align-self: flex-start;
+  font-size: 70%;
+  padding: 20px;
+}
+
+/* line 81, ../sass/screen.scss */
+.intro {
+  background: url("/images/intro.png");
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+}
+
+/* line 93, ../sass/screen.scss */
+.card {
+  background: white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 50px;
+}
+
+/* line 100, ../sass/screen.scss */
+.caption {
+  padding-right: 20px;
+}
+@media (min-width: 800px) {
+  /* line 100, ../sass/screen.scss */
+  .caption {
+    max-width: 50%;
+  }
+}
+
+/* line 107, ../sass/screen.scss */
+.caption > h1 {
+  text-align: center;
+}
+
+/* line 111, ../sass/screen.scss */
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* line 123, ../sass/screen.scss */
+.value-prop {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+/* line 130, ../sass/screen.scss */
+.value-prop > div {
+  padding-left: 40px;
+}
+
+/* line 134, ../sass/screen.scss */
+.spacer, .maps-spacer, .mountain-spacer {
+  height: 40vh;
+  width: 100%;
+}
+
+/* line 139, ../sass/screen.scss */
+.maps-spacer {
+  background: url("/images/maps-photo.jpeg");
+  background-repeat: no-repeat;
+}
+
+/* line 145, ../sass/screen.scss */
+.mountain-spacer {
+  background: url("/images/mountain-photo.jpeg");
+  background-repeat: no-repeat;
+}
+
+/* line 151, ../sass/screen.scss */
+.enroll-button {
+  font-size: 3vmin;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background: #FFC107;
+  border-style: none;
+}
+
+/* line 160, ../sass/screen.scss */
+.enroll-button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 165, ../sass/screen.scss */
+.signup {
+  width: 100vw;
+  color: white;
+  background: #56334F;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 177, ../sass/screen.scss */
+#mc_embed_signup {
+  font: 14px "Roboto",Arial,sans-serif;
+}
+
+/* line 181, ../sass/screen.scss */
+#mc_embed_signup input.button {
+  background: #FFC107;
+  color: white;
+}

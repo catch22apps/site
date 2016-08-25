@@ -1,0 +1,184 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+// Colors
+
+$primary-color: #56334F;
+$accent-color: #FFC107;
+
+// Base Styles
+
+h1 {
+  font-size: 8vmin;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4vmin;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2vmin;
+}
+
+h4 {
+  font-size: 1vmin;
+}
+
+em {
+  font-style: italic;
+}
+
+body {
+  font-family: "Roboto";
+  display: flex;
+  font-size: 100%;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+strong {
+  font-weight: bold;
+}
+
+// Modules
+
+.expert {
+  display: flex;
+  flex-flow: column;
+  max-width: 550px;
+}
+
+.pricing {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.price-tier {
+  margin: 40px;
+}
+
+.expert-fig {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.product {
+  align-self: flex-start;
+  font-size: 70%;
+  padding: 20px;
+}
+
+.intro {
+  // background: linear-gradient(to bottom, $primary-color, $primary-color 50%, white 50%);
+  background: url("/images/intro.png");
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  overflow: hidden;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 50px;
+}
+
+.caption {
+  padding-right: 20px;
+  @media (min-width: 800px) {
+    max-width: 50%;
+  }
+}
+
+.caption > h1 {
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  // font-size: 100%;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: {
+    top: 120px;
+    bottom: 120px;
+  }
+}
+
+.value-prop {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.value-prop > div {
+  padding-left: 40px;
+}
+
+.spacer {
+  height: 40vh;
+  width: 100%;
+}
+
+.maps-spacer {
+  @extend .spacer;
+  background: url("/images/maps-photo.jpeg");
+  background-repeat: no-repeat;
+}
+
+.mountain-spacer {
+  @extend .spacer;
+  background: url("/images/mountain-photo.jpeg");
+  background-repeat: no-repeat;
+}
+
+.enroll-button {
+  font-size: 3vmin;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background: $accent-color;
+  border-style: none;
+}
+
+.enroll-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.signup {
+  width: 100vw;
+  color: white;
+  background: $primary-color;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mc_embed_signup {
+  font:14px "Roboto",Arial,sans-serif;
+}
+
+#mc_embed_signup input.button {
+  background: $accent-color;
+  color: white;
+}
