@@ -3,8 +3,6 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
-
 // Colors
 
 $primary-color: #56334F;
@@ -45,30 +43,18 @@ body {
   min-height: 100vh;
 }
 
-strong {
-  font-weight: bold;
-}
-
 // Modules
-
-.expert {
-  display: flex;
-  flex-flow: column;
-  max-width: 550px;
-}
-
-.pricing {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-}
-
 .price-tier {
   margin: 40px;
 }
 
+.experts {
+  max-width: 350px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 .expert-fig {
-  width: 100%;
   border-radius: 50%;
 }
 
@@ -98,14 +84,8 @@ strong {
 }
 
 .caption {
-  padding-right: 20px;
-  @media (min-width: 800px) {
-    max-width: 50%;
-  }
-}
-
-.caption > h1 {
-  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .feature {
@@ -129,23 +109,6 @@ strong {
 
 .value-prop > div {
   padding-left: 40px;
-}
-
-.spacer {
-  height: 40vh;
-  width: 100%;
-}
-
-.maps-spacer {
-  @extend .spacer;
-  background: url("/images/maps-photo.jpeg");
-  background-repeat: no-repeat;
-}
-
-.mountain-spacer {
-  @extend .spacer;
-  background: url("/images/mountain-photo.jpeg");
-  background-repeat: no-repeat;
 }
 
 .enroll-button {

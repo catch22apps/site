@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="stylesheets/screen.css" media="screen" title="no title" charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <title>Tango Apps - Great Apps. Great Price.</title>
@@ -21,31 +22,27 @@
         </div>
       </section>
     </header>
-    <section class="feature">
+    <div class="container">
       <section class="caption">
         <h1>Too good to be true?</h1>
         <h2>Nope. Here's why:</h2>
         <h2>Talented, beginner software engineers write thousands of lines of code for their portfolios <strong>for free</strong>. They do this because they're hoping to land a job by impressing employers with their portfolio. Typically, these projects are for software that <strong>no one wants</strong>, but our experts work with these beginners to help them build the software you want at a great price.</h2>
         </section>
-    </section>
-    <div class="mountain-spacer"></div>
-    <section class="feature">
-      <section class="caption">
+    </div>
+    <img src="images/mountain-photo.jpeg" class="img-responsive" />
+    <section class="container text-center experts">
         <h1>Our Experts</h1>
-        <section class="expert">
-          <img class="expert-fig" src="images/matt.jpg"/>
-          <h2>Matt Dupree</h2>
-          <h3>Matt has built web and mobile applications for startups and large companies like Disney. When he's working on a project he's excited about, he dreams about the code he's going to write. Most of the code he writes in his dreams is useless, but when he's awake, he makes some really neat stuff.</h3>
-        </section>
-      </section>
+        <img class="expert-fig" src="images/matt.jpg"/>
+        <h2>Matt Dupree</h2>
+        <h3>Matt has built web and mobile applications for startups and large companies like Disney. When he's working on a project he's excited about, he dreams about the code he's going to write. Most of the code he writes in his dreams is useless, but when he's awake, he makes some really neat stuff.</h3>
     </section>
-    <div class="maps-spacer"></div>
-    <section class="feature">
+    <img src="images/maps-photo.jpeg" class="img-responsive" />
+    <section class="container">
       <section class="caption">
         <h1>Pricing</h1>
         <h2>Our Experts will determine the proper pricing-tier for your project, but here are some descriptions that may help you get a rough idea of where you fall.</h2>
-        <section class="pricing">
-          <section class="price-tier">
+        <section class="row">
+          <div class="col-md-4">
             <h2>Small</h2>
             <h3>$999</h3>
             <ul>
@@ -54,8 +51,8 @@
               <li>No Custom Design</li>
             </ul>
             <!-- <h3>See <a href="#">an example</a></h3> -->
-          </section>
-          <section class="price-tier">
+          </div>
+          <div class="col-md-4">
             <h2>Medium</h2>
             <h3>$2499</h3>
             <ul>
@@ -64,8 +61,8 @@
               <li>Little Custom Design</li>
             </ul>
             <!-- <h3>See <a href="#">an example</a></h3> -->
-          </section>
-          <section class="price-tier">
+          </div>
+          <div class="col-md-4">
             <h2>Large</h2>
             <h3>$4999</h3>
             <ul>
@@ -74,38 +71,15 @@
               <li>Custom Design</li>
             </ul>
             <!-- <h3>See <a href="#">an example</a></h3> -->
-          </section>
+          </div>
         </section>
       </section>
     </section>
     <section id="download" class="signup">
-      <div>
+      <div class="container text-center">
         <h1>See if your business qualifies</h1>
         <h2>Fill out our email form and we'll get in touch.</h2>
       </div>
-      <!-- Begin MailChimp Signup Form -->
-      <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-      <div id="mc_embed_signup">
-      <form action="//appspot.us11.list-manage.com/subscribe/post?u=9612e1a3261cb5689813bf38b&amp;id=e2fad7b253" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-
-      	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9612e1a3261cb5689813bf38b_e2fad7b253" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Email me" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-          </div>
-      </form>
-      </div>
-      <!--End mc_embed_signup-->
     </section>
   </body>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-79138874-1', 'auto');
-    ga('send', 'pageview');
-  </script>
 </html>
