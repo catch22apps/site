@@ -35,11 +35,52 @@ html {
 
 body {
   font-family: "Roboto";
-  display: flex;  
+  display: flex;
   justify-content: center;
   flex-flow: column;
   align-items: center;
   min-height: 100vh;
+}
+
+$animation-duration: 1s;
+$base-animation-delay: 1s;
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
+
+@mixin fadein-anim($animation-duration, $animation-delay) {
+  opacity: 0;
+  animation-duration: $animation-duration;
+  animation-delay: $animation-delay;
+  animation-fill-mode: forwards;
+  animation-name: fadein;
+}
+
+.one {
+  @include fadein-anim($animation-duration, $base-animation-delay);
+}
+
+.two {
+  @include fadein-anim($animation-duration, $base-animation-delay * 2);
+}
+
+.three {
+  @include fadein-anim($animation-duration, $base-animation-delay * 3);
+}
+
+.four {
+  @include fadein-anim($animation-duration, $base-animation-delay * 4.5);
+}
+
+.five {
+  @include fadein-anim($animation-duration, $base-animation-delay * 6);
+}
+
+.six {
+  @include fadein-anim($animation-duration, $base-animation-delay * 7);
 }
 
 // Modules
