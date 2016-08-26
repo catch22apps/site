@@ -121,6 +121,10 @@ $base-animation-delay: 1s;
 .caption {
   margin-top: 150px;
   margin-bottom: 150px;
+
+  li {
+    list-style: none;   
+  }
 }
 
 .feature {

@@ -141,8 +141,12 @@ body {
   margin-top: 150px;
   margin-bottom: 150px;
 }
+/* line 125, ../sass/screen.scss */
+.caption li {
+  list-style: none;
+}
 
-/* line 126, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .feature {
   display: flex;
   justify-content: center;
@@ -152,7 +156,7 @@ body {
   padding-bottom: 120px;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .value-prop {
   flex: 1;
   display: flex;
@@ -160,12 +164,12 @@ body {
   flex-flow: column;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .value-prop > div {
   padding-left: 40px;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .enroll-button {
   font-size: 3vmin;
   border-radius: 5px;
@@ -175,13 +179,13 @@ body {
   border-style: none;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .enroll-button a {
   color: white;
   text-decoration: none;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .signup {
   width: 100vw;
   color: white;
@@ -194,12 +198,12 @@ body {
   align-items: center;
 }
 
-/* line 174, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 #mc_embed_signup {
   font: 14px "Roboto",Arial,sans-serif;
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
