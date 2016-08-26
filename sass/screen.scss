@@ -123,7 +123,7 @@ $base-animation-delay: 1s;
   margin-bottom: 150px;
 
   li {
-    list-style: none;   
+    list-style: none;
   }
 }
 
@@ -176,7 +176,14 @@ $base-animation-delay: 1s;
 }
 
 #mc_embed_signup {
-  font:14px "Roboto",Arial,sans-serif;
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+}
+
+#mc_embed_signup form {
+  width: 350px;
+  background: $primary-color;
 }
 
 #mc_embed_signup input.button {

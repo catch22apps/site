@@ -200,10 +200,18 @@ body {
 
 /* line 178, ../sass/screen.scss */
 #mc_embed_signup {
-  font: 14px "Roboto",Arial,sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-/* line 182, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
+#mc_embed_signup form {
+  width: 350px;
+  background: #56334F;
+}
+
+/* line 189, ../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
