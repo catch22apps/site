@@ -22,21 +22,20 @@ h2 {
 }
 
 h3 {
-  font-size: 2vmin;
-}
-
-h4 {
-  font-size: 1vmin;
+  font-size: 3vmin;
 }
 
 em {
   font-style: italic;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Roboto";
-  display: flex;
-  font-size: 100%;
+  display: flex;  
   justify-content: center;
   flex-flow: column;
   align-items: center;
@@ -44,10 +43,6 @@ body {
 }
 
 // Modules
-.price-tier {
-  margin: 40px;
-}
-
 .experts {
   max-width: 350px;
   margin-top: 150px;
@@ -59,7 +54,6 @@ body {
 }
 
 .product {
-  align-self: flex-start;
   font-size: 70%;
   padding: 20px;
 }
@@ -70,17 +64,17 @@ body {
   background-repeat: no-repeat;
   color: white;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-flow: column;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .card {
   background: white;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-  padding: 50px;
+  // padding: 50px;
 }
 
 .caption {
@@ -91,7 +85,6 @@ body {
 .feature {
   display: flex;
   justify-content: center;
-  // font-size: 100%;
   align-items: center;
   flex-flow: row wrap;
   padding: {

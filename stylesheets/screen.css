@@ -17,81 +17,73 @@ h2 {
 
 /* line 24, ../sass/screen.scss */
 h3 {
-  font-size: 2vmin;
+  font-size: 3vmin;
 }
 
 /* line 28, ../sass/screen.scss */
-h4 {
-  font-size: 1vmin;
+em {
+  font-style: italic;
 }
 
 /* line 32, ../sass/screen.scss */
-em {
-  font-style: italic;
+html {
+  overflow-x: hidden;
 }
 
 /* line 36, ../sass/screen.scss */
 body {
   font-family: "Roboto";
   display: flex;
-  font-size: 100%;
   justify-content: center;
   flex-flow: column;
   align-items: center;
   min-height: 100vh;
 }
 
-/* line 47, ../sass/screen.scss */
-.price-tier {
-  margin: 40px;
-}
-
-/* line 51, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .experts {
   max-width: 350px;
   margin-top: 150px;
   margin-bottom: 150px;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .expert-fig {
   border-radius: 50%;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .product {
-  align-self: flex-start;
   font-size: 70%;
   padding: 20px;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .intro {
   background: url("/images/intro.png");
   background-repeat: no-repeat;
   color: white;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-flow: column;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .card {
   background: white;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-  padding: 50px;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .caption {
   margin-top: 150px;
   margin-bottom: 150px;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .feature {
   display: flex;
   justify-content: center;
@@ -101,7 +93,7 @@ body {
   padding-bottom: 120px;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .value-prop {
   flex: 1;
   display: flex;
@@ -109,12 +101,12 @@ body {
   flex-flow: column;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .value-prop > div {
   padding-left: 40px;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .enroll-button {
   font-size: 3vmin;
   border-radius: 5px;
@@ -124,13 +116,13 @@ body {
   border-style: none;
 }
 
-/* line 123, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .enroll-button a {
   color: white;
   text-decoration: none;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .signup {
   width: 100vw;
   color: white;
@@ -143,12 +135,12 @@ body {
   align-items: center;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #mc_embed_signup {
   font: 14px "Roboto",Arial,sans-serif;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
