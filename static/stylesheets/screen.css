@@ -40,13 +40,8 @@ body {
   min-height: 100vh;
 }
 
-/* line 45, ../../sass/screen.scss */
-p {
-  margin-bottom: 25px;
-}
-
 /* line 49, ../../sass/screen.scss */
-header > section {
+.tldr {
   color: white;
   padding: 100px;
   height: 100vh;
