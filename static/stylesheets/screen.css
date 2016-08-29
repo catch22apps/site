@@ -55,6 +55,16 @@ body {
 }
 
 /* line 57, ../../sass/screen.scss */
+.content img {
+  max-width: 800px;
+}
+
+/* line 61, ../../sass/screen.scss */
+.content video {
+  max-width: 400px;
+}
+
+/* line 65, ../../sass/screen.scss */
 .tldr {
   color: white;
   padding: 100px;
@@ -71,7 +81,7 @@ body {
     opacity: 1;
   }
 }
-/* line 85, ../../sass/screen.scss */
+/* line 93, ../../sass/screen.scss */
 .one {
   opacity: 0;
   animation-duration: 1s;
@@ -80,7 +90,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 89, ../../sass/screen.scss */
+/* line 97, ../../sass/screen.scss */
 .two {
   opacity: 0;
   animation-duration: 1s;
@@ -89,7 +99,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 93, ../../sass/screen.scss */
+/* line 101, ../../sass/screen.scss */
 .three {
   opacity: 0;
   animation-duration: 1s;
@@ -98,7 +108,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 97, ../../sass/screen.scss */
+/* line 105, ../../sass/screen.scss */
 .four {
   opacity: 0;
   animation-duration: 1s;
@@ -107,7 +117,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 101, ../../sass/screen.scss */
+/* line 109, ../../sass/screen.scss */
 .five {
   opacity: 0;
   animation-duration: 1s;
@@ -116,7 +126,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 105, ../../sass/screen.scss */
+/* line 113, ../../sass/screen.scss */
 .six {
   opacity: 0;
   animation-duration: 1s;
@@ -125,25 +135,25 @@ body {
   animation-name: fadein;
 }
 
-/* line 110, ../../sass/screen.scss */
+/* line 118, ../../sass/screen.scss */
 .experts {
   max-width: 350px;
   margin-top: 150px;
   margin-bottom: 150px;
 }
 
-/* line 116, ../../sass/screen.scss */
+/* line 124, ../../sass/screen.scss */
 .expert-fig {
   border-radius: 50%;
 }
 
-/* line 120, ../../sass/screen.scss */
+/* line 128, ../../sass/screen.scss */
 .product {
   font-size: 70%;
   padding: 20px;
 }
 
-/* line 125, ../../sass/screen.scss */
+/* line 133, ../../sass/screen.scss */
 .intro {
   background: url("/images/intro.png");
   background-repeat: no-repeat;
@@ -155,24 +165,24 @@ body {
   overflow-x: hidden;
 }
 
-/* line 137, ../../sass/screen.scss */
+/* line 145, ../../sass/screen.scss */
 .card {
   background: white;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
-/* line 144, ../../sass/screen.scss */
+/* line 152, ../../sass/screen.scss */
 .caption {
   margin-top: 150px;
   margin-bottom: 150px;
 }
-/* line 148, ../../sass/screen.scss */
+/* line 156, ../../sass/screen.scss */
 .caption li {
   list-style: none;
 }
 
-/* line 153, ../../sass/screen.scss */
+/* line 161, ../../sass/screen.scss */
 .feature {
   display: flex;
   justify-content: center;
@@ -182,7 +192,7 @@ body {
   padding-bottom: 120px;
 }
 
-/* line 164, ../../sass/screen.scss */
+/* line 172, ../../sass/screen.scss */
 .value-prop {
   flex: 1;
   display: flex;
@@ -190,12 +200,12 @@ body {
   flex-flow: column;
 }
 
-/* line 171, ../../sass/screen.scss */
+/* line 179, ../../sass/screen.scss */
 .value-prop > div {
   padding-left: 40px;
 }
 
-/* line 175, ../../sass/screen.scss */
+/* line 183, ../../sass/screen.scss */
 .enroll-button {
   font-size: 3vmin;
   border-radius: 5px;
@@ -205,13 +215,13 @@ body {
   border-style: none;
 }
 
-/* line 184, ../../sass/screen.scss */
+/* line 192, ../../sass/screen.scss */
 .enroll-button a {
   color: white;
   text-decoration: none;
 }
 
-/* line 189, ../../sass/screen.scss */
+/* line 197, ../../sass/screen.scss */
 .signup {
   width: 100vw;
   color: white;
@@ -224,20 +234,20 @@ body {
   align-items: center;
 }
 
-/* line 201, ../../sass/screen.scss */
+/* line 209, ../../sass/screen.scss */
 #mc_embed_signup {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-/* line 207, ../../sass/screen.scss */
+/* line 215, ../../sass/screen.scss */
 #mc_embed_signup form {
   width: 350px;
   background: #56334F;
 }
 
-/* line 212, ../../sass/screen.scss */
+/* line 220, ../../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
