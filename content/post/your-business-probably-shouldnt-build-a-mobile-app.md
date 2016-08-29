@@ -39,7 +39,7 @@ Can you tell the difference? Probably not. So, a web app can, in some cases, del
 1. complicated offline data storage
 1. access to the mobile device's sensors
 
-There might be some other cases where it does make sense to build a mobile app instead of a web app, but I think the this list covers the most common cases.
+There might be some other cases where it does make sense to build a mobile app instead of a web app, but I think this list covers the most common cases.
 
 If you're pretty tech-savy, you may have some objections to this recommendation. You might ask, "But what about push notifications?" Turns out web apps can do that.<sup>4</sup> Then you might ask, "What about offline access?" Web apps can do that. In fact, the video that you saw above on the left demonstrates a web application that allows offline access. Finally, you might ask, "But what if I need the user's location data?" Web apps can do that too.
 
@@ -51,9 +51,9 @@ If you know a small business owner that's looking to build a mobile app and you 
 
 ### Notes:
 
-1. You may not need to double this price tag if you're using a cross-platform application development tool like React Native.
+1. You may not need to double this price tag if you're using a cross-platform application development tool like [React Native](http://www.google.com).
 
-1. These tools are called "java2Objc" and "React Native," respectively.
+1. These tools are called ["java2Objc"](http://www.google.com) and ["React Native,"](http://www.google.com) respectively.
 
 1. I suspect that Apple will copy this feature by next summer.
 
