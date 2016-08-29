@@ -1,6 +1,6 @@
 +++
-date = "2016-08-27T21:32:22-04:00"
-draft = true
+date = "2016-08-29T17:49:23-04:00"
+draft = false
 title = "Your Business Probably Shouldn't Build a Mobile App"
 image = "/images/cracked-iphone.jpg"
 tldr = "Mobile apps are sexy, but they're not cheap, and the golden age of apps is over. Only build a mobile application if your software needs access to mobile-only sensors (e.g., accelerometer), mobile-specific UI gestures (e.g., swipe, pinch to zoom), or has complicated offline data storage needs. Otherwise, consider building a responsive (mobile-friendly) web application instead."

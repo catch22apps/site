@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tango</title>
+    <link>http://replace-this-with-your-hugo-site.com/post/</link>
+    <description>Recent content in Posts on Tango</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Aug 2016 17:49:23 -0400</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Your Business Probably Shouldn&#39;t Build a Mobile App</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/your-business-probably-shouldnt-build-a-mobile-app/</link>
+      <pubDate>Mon, 29 Aug 2016 17:49:23 -0400</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/your-business-probably-shouldnt-build-a-mobile-app/</guid>
+      <description>
+
+&lt;h2 id=&#34;sexy-but-not-cheap:4d517dacb2f84b7e5ca7da4f8d11cb24&#34;&gt;Sexy, but not cheap&lt;/h2&gt;
+
+&lt;p&gt;Mobile apps are sexy. Whenever I tell people that I develop mobile applications, their eyes light up. They ask me what apps I&amp;rsquo;ve been working on and they often pitch me on a &amp;ldquo;million dollar idea&amp;rdquo; for an app. Planet of the Apps, a new reality TV show about mobile application development, is further evidence that people are fascinated with mobile applications and the businesses that are built around them.&lt;/p&gt;
+
+&lt;p&gt;Its easy to get caught up in the app hype. Huge companies like Facebook, Uber, and Airbnb may make us think that building a mobile app can result in huge benefits for our businesses. While this is true in some cases, the reality is that building a mobile application for your business can be a big waste of time and money.&lt;/p&gt;
+
+&lt;p&gt;We can start to see how expensive mobile applications are if we look at the average salary of a mobile application developer. &lt;a href=&#34;https://www.glassdoor.com/Salaries/mobile-developer-salary-SRCH_KO0,16.htm&#34;&gt;According to Glassdoor&lt;/a&gt;, the national average yearly salary of a mobile developer is $76,061, which leads to an hourly rate of about $36.50. With just one week of full-time work, your mobile app already has a price tag of $1460. If you want to build your application for both Android and iOS, you &lt;em&gt;may&lt;/em&gt; need to double that price tag because the code that works for Android won&amp;rsquo;t work for iOS.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, these salary surveys are just that: surveys of people who are working at companies with a salary. If you hire a freelance developer, however, you may find that the hourly rate they charge is much higher than the rate you see for salaried employees. The reason for this is that freelance developers need to cover the cost of their own insurance and other benefits (like vacation time) that are already included in the compensation package of salaried employees. I&amp;rsquo;ve heard experienced freelance developers advise new freelancers to charge twice the hourly rate they would have if they were regular salaried employees, and I&amp;rsquo;ve known developers who have charged $200/hr for their services.&lt;/p&gt;
+
+&lt;p&gt;Even large companies like Google and Facebook are sensitive to the development costs of mobile applications. Both companies have created tools that allow them to share code between iOS and Android phones.&lt;sup&gt;2&lt;/sup&gt; If these large companies are worried about development costs, you and your small business should be worried too.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-golden-age-is-over:4d517dacb2f84b7e5ca7da4f8d11cb24&#34;&gt;The Golden Age is Over&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.kpcb.com/&#34;&gt;KPCB&lt;/a&gt;, an venture capital firm that invests in internet startups, has published a report that points out that the growth of mobile device shipments is rapidly decelerating and that the money spent in Apple and Google&amp;rsquo;s app stores has been shrinking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/decelerating-growth.jpg&#34; alt=&#34;decelerating mobile device shipment&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/shrinking-revenue.jpg&#34; alt=&#34;shrinking revenue&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qz.com/253618/most-smartphone-users-download-zero-apps-per-month/&#34;&gt;Quartz also reports&lt;/a&gt; that most mobile phone users are downloading 0 apps per month. Presumably, this fact was the central motivation for Google to release &lt;a href=&#34;https://developer.android.com/topic/instant-apps/index.html&#34;&gt;its new &amp;ldquo;Instant App&amp;rdquo; feature for Android&lt;/a&gt; this past summer, a feature that allows users to run an Android application without downloading it.&lt;sup&gt;3&lt;/sup&gt; It may be sexy to talk and think about mobile apps, but for many mobile phone users, apps aren&amp;rsquo;t sexy enough to even download let alone pay for.&lt;/p&gt;
+
+&lt;h2 id=&#34;do-you-really-need-an-app:4d517dacb2f84b7e5ca7da4f8d11cb24&#34;&gt;Do you really need an app?&lt;/h2&gt;
+
+&lt;p&gt;So, mobile apps are expensive and people today are less willing to download and spend money on them. Does that mean your business can&amp;rsquo;t benefit from a mobile application? Not necessarily. The point here is just that it&amp;rsquo;s worth considering whether there&amp;rsquo;s a better way to solve your business&amp;rsquo; problem.&lt;/p&gt;
+
+&lt;p&gt;In many cases, developing a responsive web application may be a better choice for your business. Responsive web apps don&amp;rsquo;t require separate code for Android and iOS and with the advent of web application frameworks like angular and react, it can be cheaper and faster to develop a web application instead of a native mobile app. Moreover, web applications offer many of the same benefits native mobile apps have.&lt;/p&gt;
+
+&lt;p&gt;The Google I/O conference app is a nice case-in-point here. The following video is of the responsive web app for Google I/O, a yearly developer conference.&lt;/p&gt;
+
+&lt;p&gt;&lt;video src=&#34;http://replace-this-with-your-hugo-site.com/video/google-io-webapp.mp4&#34; controls/&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see the web app is pretty slick. To be sure, the experience is not as nice as a native mobile app, but money doesn&amp;rsquo;t grow on trees.&lt;/p&gt;
+
+&lt;p&gt;So, a web app can, in some cases, deliver many of the same benefits as a native mobile app without the big price tag. Because of this, I recommend that you only build a mobile application if your app needs&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;mobile-specific UI gestures like &amp;ldquo;swipe&amp;rdquo; and &amp;ldquo;pinch to zoom&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;complicated offline data storage&lt;/li&gt;
+&lt;li&gt;access to the mobile device&amp;rsquo;s sensors&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There might be some other cases where it does make sense to build a mobile app instead of a web app, but I think this list covers the most common cases.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re pretty tech-savy, you may have some objections to this recommendation. You might ask, &amp;ldquo;But what about push notifications?&amp;rdquo; Turns out web apps can do that.&lt;sup&gt;4&lt;/sup&gt; Then you might ask, &amp;ldquo;What about offline access?&amp;rdquo; Web apps can do that. In fact, the video that you saw above on the left demonstrates a web application that allows offline access. Finally, you might ask, &amp;ldquo;But what if I need the user&amp;rsquo;s location data?&amp;rdquo; Web apps can do that too.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:4d517dacb2f84b7e5ca7da4f8d11cb24&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;rsquo;re considering building an app for your business, don&amp;rsquo;t get caught up in the app hype. Consider whether a responsive web application may better suite your needs. Even if you decide a mobile app is right for you, if price is an issue for your business, consider hiring us at Catch22. We&amp;rsquo;re a new kind of software development company that works with pre-professional software engineers to develop awesome apps at an awesome price. Check out &lt;a href=&#34;http://catch22.tech&#34;&gt;our landing page for more info&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you know a small business owner that&amp;rsquo;s looking to build a mobile app and you think this article will help them, please share it and save them some money!&lt;/p&gt;
+
+&lt;h3 id=&#34;notes:4d517dacb2f84b7e5ca7da4f8d11cb24&#34;&gt;Notes:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;You may not need to double this price tag if you&amp;rsquo;re using a cross-platform application development tool like &lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;React Native&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;These tools are called &lt;a href=&#34;http://j2objc.org/&#34;&gt;&amp;ldquo;java2Objc&amp;rdquo;&lt;/a&gt; and &lt;a href=&#34;https://facebook.github.io/react-native/&#34;&gt;&amp;ldquo;React Native,&amp;rdquo;&lt;/a&gt; respectively.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I suspect that Apple will copy this feature by next summer.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Don&amp;rsquo;t believe me? Visit facebook.com through your mobile browser and you&amp;rsquo;ll be prompted to allow push notifications.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
