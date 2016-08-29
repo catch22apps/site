@@ -4,20 +4,20 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 13, ../../sass/screen.scss */
 h1 {
-  font-size: 8vmin;
+  font-size: calc(7vmin + 1em);
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 /* line 19, ../../sass/screen.scss */
 h2 {
-  font-size: 4vmin;
+  font-size: calc(4vmin + 1em);
   margin-bottom: 20px;
 }
 
 /* line 24, ../../sass/screen.scss */
 h3 {
-  font-size: 3vmin;
+  font-size: calc(3vmin + 1em);
 }
 
 /* line 28, ../../sass/screen.scss */
