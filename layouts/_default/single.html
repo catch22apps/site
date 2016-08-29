@@ -2,8 +2,14 @@
 <html>
   {{ partial "header.html" }}
   <body>
-    <article class="container">
-      <h1>{{.Title}}</h1>
+    <header style="background: url({{.Params.image}});">
+      <section>
+        <h1>{{.Title}}</h1>
+        <h3>{{.WordCount}} words - {{.ReadingTime}} minute read</h3>
+        <h2>{{.Params.tldr}}</h2>
+      </section>
+    </header>
+    <article class="container lead">
       {{.Content}}
     </article>
   </body>

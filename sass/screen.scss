@@ -42,6 +42,21 @@ body {
   min-height: 100vh;
 }
 
+p {
+  margin-bottom: 25px;    
+}
+
+header > section {
+  color: white;
+  padding: 100px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
 $animation-duration: 1s;
 $base-animation-delay: 1s;
 
@@ -177,7 +192,7 @@ $base-animation-delay: 1s;
 
 #mc_embed_signup {
   width: 100%;
-  display: flex;  
+  display: flex;
   justify-content: center;
 }
 
