@@ -11,18 +11,18 @@ $accent-color: #FFC107;
 // Base Styles
 
 h1 {
-  font-size: 8vmin;
+  font-size: calc(7vmin + 1em);
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 4vmin;
+  font-size: calc(4vmin + 1em);
   margin-bottom: 20px;
 }
 
 h3 {
-  font-size: 3vmin;
+  font-size: calc(3vmin + 1em);
 }
 
 em {
