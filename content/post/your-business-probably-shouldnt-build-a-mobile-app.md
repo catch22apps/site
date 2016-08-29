@@ -2,7 +2,7 @@
 date = "2016-08-27T21:32:22-04:00"
 draft = true
 title = "Your Business Probably Shouldn't Build a Mobile App"
-image = "/images/intro.png"
+image = "/images/cracked-iphone.jpg"
 tldr = "Mobile apps are sexy, but they're not cheap, and the golden age of apps is over. Only build a mobile application if your software needs access to mobile-only sensors (e.g., accelerometer), mobile-specific UI gestures (e.g., swipe, pinch to zoom), or has complicated offline data storage needs. Otherwise, consider building a responsive (mobile-friendly) web application instead."
 +++
 
@@ -51,9 +51,9 @@ If you know a small business owner that's looking to build a mobile app and you 
 
 ### Notes:
 
-1. You may not need to double this price tag if you're using a cross-platform application development tool like [React Native](http://www.google.com).
+1. You may not need to double this price tag if you're using a cross-platform application development tool like [React Native](https://facebook.github.io/react-native/).
 
-1. These tools are called ["java2Objc"](http://www.google.com) and ["React Native,"](http://www.google.com) respectively.
+1. These tools are called ["java2Objc"](http://j2objc.org/) and ["React Native,"](https://facebook.github.io/react-native/) respectively.
 
 1. I suspect that Apple will copy this feature by next summer.
 

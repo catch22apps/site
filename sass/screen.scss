@@ -42,9 +42,17 @@ body {
   min-height: 100vh;
 }
 
-// p {
-//   margin-bottom: 25px;
-// }
+.content {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.content > p {
+  margin-bottom: 30px;
+  max-width: 800px;
+}
 
 .tldr {
   color: white;

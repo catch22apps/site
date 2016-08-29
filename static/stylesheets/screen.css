@@ -40,7 +40,21 @@ body {
   min-height: 100vh;
 }
 
-/* line 49, ../../sass/screen.scss */
+/* line 45, ../../sass/screen.scss */
+.content {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+/* line 52, ../../sass/screen.scss */
+.content > p {
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+/* line 57, ../../sass/screen.scss */
 .tldr {
   color: white;
   padding: 100px;
@@ -57,7 +71,7 @@ body {
     opacity: 1;
   }
 }
-/* line 77, ../../sass/screen.scss */
+/* line 85, ../../sass/screen.scss */
 .one {
   opacity: 0;
   animation-duration: 1s;
@@ -66,7 +80,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 81, ../../sass/screen.scss */
+/* line 89, ../../sass/screen.scss */
 .two {
   opacity: 0;
   animation-duration: 1s;
@@ -75,7 +89,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 85, ../../sass/screen.scss */
+/* line 93, ../../sass/screen.scss */
 .three {
   opacity: 0;
   animation-duration: 1s;
@@ -84,7 +98,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 89, ../../sass/screen.scss */
+/* line 97, ../../sass/screen.scss */
 .four {
   opacity: 0;
   animation-duration: 1s;
@@ -93,7 +107,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 93, ../../sass/screen.scss */
+/* line 101, ../../sass/screen.scss */
 .five {
   opacity: 0;
   animation-duration: 1s;
@@ -102,7 +116,7 @@ body {
   animation-name: fadein;
 }
 
-/* line 97, ../../sass/screen.scss */
+/* line 105, ../../sass/screen.scss */
 .six {
   opacity: 0;
   animation-duration: 1s;
@@ -111,25 +125,25 @@ body {
   animation-name: fadein;
 }
 
-/* line 102, ../../sass/screen.scss */
+/* line 110, ../../sass/screen.scss */
 .experts {
   max-width: 350px;
   margin-top: 150px;
   margin-bottom: 150px;
 }
 
-/* line 108, ../../sass/screen.scss */
+/* line 116, ../../sass/screen.scss */
 .expert-fig {
   border-radius: 50%;
 }
 
-/* line 112, ../../sass/screen.scss */
+/* line 120, ../../sass/screen.scss */
 .product {
   font-size: 70%;
   padding: 20px;
 }
 
-/* line 117, ../../sass/screen.scss */
+/* line 125, ../../sass/screen.scss */
 .intro {
   background: url("/images/intro.png");
   background-repeat: no-repeat;
@@ -141,24 +155,24 @@ body {
   overflow-x: hidden;
 }
 
-/* line 129, ../../sass/screen.scss */
+/* line 137, ../../sass/screen.scss */
 .card {
   background: white;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
-/* line 136, ../../sass/screen.scss */
+/* line 144, ../../sass/screen.scss */
 .caption {
   margin-top: 150px;
   margin-bottom: 150px;
 }
-/* line 140, ../../sass/screen.scss */
+/* line 148, ../../sass/screen.scss */
 .caption li {
   list-style: none;
 }
 
-/* line 145, ../../sass/screen.scss */
+/* line 153, ../../sass/screen.scss */
 .feature {
   display: flex;
   justify-content: center;
@@ -168,7 +182,7 @@ body {
   padding-bottom: 120px;
 }
 
-/* line 156, ../../sass/screen.scss */
+/* line 164, ../../sass/screen.scss */
 .value-prop {
   flex: 1;
   display: flex;
@@ -176,12 +190,12 @@ body {
   flex-flow: column;
 }
 
-/* line 163, ../../sass/screen.scss */
+/* line 171, ../../sass/screen.scss */
 .value-prop > div {
   padding-left: 40px;
 }
 
-/* line 167, ../../sass/screen.scss */
+/* line 175, ../../sass/screen.scss */
 .enroll-button {
   font-size: 3vmin;
   border-radius: 5px;
@@ -191,13 +205,13 @@ body {
   border-style: none;
 }
 
-/* line 176, ../../sass/screen.scss */
+/* line 184, ../../sass/screen.scss */
 .enroll-button a {
   color: white;
   text-decoration: none;
 }
 
-/* line 181, ../../sass/screen.scss */
+/* line 189, ../../sass/screen.scss */
 .signup {
   width: 100vw;
   color: white;
@@ -210,20 +224,20 @@ body {
   align-items: center;
 }
 
-/* line 193, ../../sass/screen.scss */
+/* line 201, ../../sass/screen.scss */
 #mc_embed_signup {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-/* line 199, ../../sass/screen.scss */
+/* line 207, ../../sass/screen.scss */
 #mc_embed_signup form {
   width: 350px;
   background: #56334F;
 }
 
-/* line 204, ../../sass/screen.scss */
+/* line 212, ../../sass/screen.scss */
 #mc_embed_signup input.button {
   background: #FFC107;
   color: white;
