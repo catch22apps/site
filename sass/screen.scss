@@ -22,7 +22,11 @@ h2 {
 }
 
 h3 {
-  font-size: calc(3vmin + 1em);
+  font-size: calc(2vmin + 1em);
+}
+
+h4 {
+  font-size: calc(1vmin + 1em);
 }
 
 em {
@@ -116,7 +120,7 @@ $base-animation-delay: 1s;
 
 // Modules
 .experts {
-  max-width: 350px;
+  max-width: 550px;
   margin-top: 150px;
   margin-bottom: 150px;
 }
