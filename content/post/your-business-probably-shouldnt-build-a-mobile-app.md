@@ -52,7 +52,7 @@ If you're pretty tech-savy, you may have some objections to this recommendation.
 
 ## Conclusion
 
-If you're considering building an app for your business, don't get caught up in the app hype. Consider whether a responsive web application may better suite your needs. Even if you decide a mobile app is right for you, if price is an issue for your business, consider hiring us at Catch22. We're a new kind of software development company that works with pre-professional software engineers to develop awesome apps at an awesome price. Check out [our landing page for more info](http://catch22.tech).
+If you're considering building an app for your business, don't get caught up in the app hype. Consider whether a responsive web application may better suite your needs. Even if you decide a mobile app is right for you, if price is an issue for your business, consider hiring us at Catch22. Check out [our landing page for more info](http://catch22.tech).
 
 If you know a small business owner that's looking to build a mobile app and you think this article will help them, please share it and save them some money!
 
