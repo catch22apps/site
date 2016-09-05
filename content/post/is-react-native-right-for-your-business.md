@@ -33,6 +33,10 @@ React Native is maintained by Facebook. They've invested heavily in the project,
 
 Because React Native is a 3rd-party tool that’s not developed by Google and Apple, there may be some delay between when a feature is released for the new versions of iOS and Android and when that feature becomes available in React Native. If it’s critical that your application be on the cutting edge of new features that are available on mobile devices, React Native may not be a good fit.
 
+## Want to know more?
+
+If you'd like to talk more about whether React Native is a good fit for your development project, check us out at Catch22, an application development company. Checkout our landing page and [leave us your email ](http://catch22.tech/#download) so we can setup a meeting.
+
 ## Notes:
 
 1. Adam Miskiewicz at Chalk and Chisle, a development agency that’s done work with the Discovery Channel and Nike is an example of someone who thinks that 85% is not even the upper-bound on the potential for code reused.
