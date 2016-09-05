@@ -7,11 +7,11 @@ title = "Is React Native Right for your Business?"
 
 ## Introduction
 
-If you decide that your business needs a mobile app in spite of [the warning I've given](http://catch22.tech/post/your-business-probably-shouldnt-build-a-mobile-app/), you should consider using React Native for your project. React Native is a new tool for cross-platform mobile development. The tool allows developers to share code between Android and iOS devices, thereby reducing development time. While React Native can reduce development costs, using the tool is riskier than native mobile development and some features that are available in the newest versions of iOS and Android may not be available through React Native. This report discusses these tradeoffs in detail.
+If you decide that your business needs a mobile app in spite of [the warning I've given](http://catch22.tech/post/your-business-probably-shouldnt-build-a-mobile-app/), you should consider using [React Native](https://facebook.github.io/react-native/) for your project. React Native is a new tool for cross-platform mobile development. The tool allows developers to share code between Android and iOS devices, thereby reducing development time. While React Native can reduce development costs, using the tool is riskier than native mobile development and some features that are available in the newest versions of iOS and Android may not be available through React Native. This report discusses these tradeoffs in detail.
 
 ## Lower-development Costs
 
-Because React Native allows developers to share much of the code between the two platforms, there can be significant development cost savings. Facebook has reported that they’ve been able to share up to 85% of their code across Android and iOS in one of their smaller applications. Some have even suggested that the code reuse between the two platforms could be even higher than this.<sup>1</sup>
+Because React Native allows developers to share much of the code between the two platforms, there can be significant development cost savings. [Facebook has reported](https://code.facebook.com/posts/1189117404435352/react-native-for-android-how-we-built-the-first-cross-platform-react-native-app/) that they’ve been able to share up to 85% of their code across Android and iOS in one of their smaller applications. Some have even suggested that the code reuse between the two platforms could be even higher than this.<sup>1</sup>
 
 ## Risk
 
@@ -37,8 +37,8 @@ Because React Native is a 3rd-party tool that’s not developed by Google and Ap
 
 1. Adam Miskiewicz at Chalk and Chisle, a development agency that’s done work with the Discovery Channel and Nike is an example of someone who thinks that 85% is not even the upper-bound on the potential for code reused.
 
-1. There’s a Medium article that pretty well captures this sentiment. Interestingly, the article also suggests that 2016 will be the year that the javascript ecosystem starts to stabilize.
+1. [There’s a Medium article](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.z5q5db7m1) that pretty well captures this sentiment. Interestingly, the article also suggests that 2016 will be the year that the javascript ecosystem starts to stabilize.
 
-1. In the blog post announcing React Native, Facebook says this about Phonegap-like development tools: "What we really want is the user experience of the native mobile platforms...There are a few ways we can probably achieve this...One possibility is to use WebViews inside simple native wrapper applications. We tried this a few years back...Unfortunately, because all the rendering is done using web tech, we can't produce a truly native user experience."
+1. [In the blog post announcing React Native](https://code.facebook.com/posts/1014532261909640/react-native-bringing-modern-web-techniques-to-mobile/), Facebook says this about Phonegap-like development tools: "What we really want is the user experience of the native mobile platforms...There are a few ways we can probably achieve this...One possibility is to use WebViews inside simple native wrapper applications. We tried this a few years back...Unfortunately, because all the rendering is done using web tech, we can't produce a truly native user experience."
 
 1. See [the react native showcase](https://facebook.github.io/react-native/showcase.html) for a list of apps that use react native.
