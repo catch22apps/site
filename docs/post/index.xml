@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tango</title>
-    <link>http://replace-this-with-your-hugo-site.com/post/</link>
-    <description>Recent content in Posts on Tango</description>
+    <title>Posts on Catch22</title>
+    <link>http://catch22.tech/post/</link>
+    <description>Recent content in Posts on Catch22</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Sep 2016 08:54:29 -0400</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://catch22.tech/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Is React Native Right for your Business?</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/is-react-native-right-for-your-business/</link>
+      <link>http://catch22.tech/post/is-react-native-right-for-your-business/</link>
       <pubDate>Mon, 05 Sep 2016 08:54:29 -0400</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/is-react-native-right-for-your-business/</guid>
+      <guid>http://catch22.tech/post/is-react-native-right-for-your-business/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction:b51614b30bcf098d8cf3008a650f5d66&#34;&gt;Introduction&lt;/h2&gt;
@@ -31,7 +31,7 @@
 
 &lt;p&gt;React Native is not maintained by Apple or Google. Because of this, there&amp;rsquo;s a risk that support for the tool may eventually be dropped. As the following Google Trends graph suggests, Phonegap, a similar cross-platform application development tool that is not supported by Google and Apple may be on its way to this fate.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/phonegap-trend.png&#34; alt=&#34;downward trend&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://catch22.tech/images/phonegap-trend.png&#34; alt=&#34;downward trend&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;React Native is also a risky proposition because it uses Javascript, a language and ecosystem that is known for being a particularly volatile.&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
 
@@ -65,10 +65,10 @@
     
     <item>
       <title>Your Business Probably Shouldn&#39;t Build a Mobile App</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/your-business-probably-shouldnt-build-a-mobile-app/</link>
+      <link>http://catch22.tech/post/your-business-probably-shouldnt-build-a-mobile-app/</link>
       <pubDate>Mon, 29 Aug 2016 17:49:23 -0400</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/your-business-probably-shouldnt-build-a-mobile-app/</guid>
+      <guid>http://catch22.tech/post/your-business-probably-shouldnt-build-a-mobile-app/</guid>
       <description>
 
 &lt;h2 id=&#34;sexy-but-not-cheap:4d517dacb2f84b7e5ca7da4f8d11cb24&#34;&gt;Sexy, but not cheap&lt;/h2&gt;
@@ -87,9 +87,9 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.kpcb.com/&#34;&gt;KPCB&lt;/a&gt;, an venture capital firm that invests in internet startups, has published a report that points out that the growth of mobile device shipments is rapidly decelerating and that the money spent in Apple and Google&amp;rsquo;s app stores has been shrinking.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/decelerating-growth.jpg&#34; alt=&#34;decelerating mobile device shipment&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://catch22.tech/images/decelerating-growth.jpg&#34; alt=&#34;decelerating mobile device shipment&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://replace-this-with-your-hugo-site.com/images/shrinking-revenue.jpg&#34; alt=&#34;shrinking revenue&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://catch22.tech/images/shrinking-revenue.jpg&#34; alt=&#34;shrinking revenue&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://qz.com/253618/most-smartphone-users-download-zero-apps-per-month/&#34;&gt;Quartz also reports&lt;/a&gt; that most mobile phone users are downloading 0 apps per month. Presumably, this fact was the central motivation for Google to release &lt;a href=&#34;https://developer.android.com/topic/instant-apps/index.html&#34;&gt;its new &amp;ldquo;Instant App&amp;rdquo; feature for Android&lt;/a&gt; this past summer, a feature that allows users to run an Android application without downloading it.&lt;sup&gt;3&lt;/sup&gt; It may be sexy to talk and think about mobile apps, but for many mobile phone users, apps aren&amp;rsquo;t sexy enough to even download let alone pay for.&lt;/p&gt;
 
@@ -101,7 +101,7 @@
 
 &lt;p&gt;The Google I/O conference app is a nice case-in-point here. The following video is of the responsive web app for Google I/O, a yearly developer conference.&lt;/p&gt;
 
-&lt;p&gt;&lt;video src=&#34;http://replace-this-with-your-hugo-site.com/video/google-io-webapp.mp4&#34; controls/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video src=&#34;http://catch22.tech/video/google-io-webapp.mp4&#34; controls/&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see the web app is pretty slick. To be sure, the experience is not as nice as a native mobile app, but money doesn&amp;rsquo;t grow on trees.&lt;/p&gt;
 
