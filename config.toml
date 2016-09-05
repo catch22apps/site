@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://catch22.tech/"
 languageCode = "en-us"
-title = "Tango"
+title = "Catch22"
 publishDir = "docs"

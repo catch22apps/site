@@ -3,6 +3,7 @@ image = "/images/fork-in-railroad.jpg"
 date = "2016-09-05T08:54:29-04:00"
 draft = false
 title = "Is React Native Right for your Business?"
+tldr = "React Native allows developers to share code between Android and iOS devices, thereby reducing development time. While React Native can reduce development costs, using the tool is riskier than native mobile development and some features that are available in the newest versions of iOS and Android may not be available through React Native."
 +++
 
 ## Introduction
